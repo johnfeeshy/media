@@ -1,0 +1,202 @@
+html{
+    background: #dcdce2;
+    overflow-x: hidden;
+    
+}
+
+body{
+    margin: 0px;
+    
+}
+
+
+a:any-link {
+    color:black;
+    transition: color 0.4s, border 0.4s;
+}
+
+a:hover {
+    color: blue;
+}
+
+p {
+    margin: 10px;
+    font-family: sans-serif;
+    font-weight: 200;
+}
+
+h1{
+    margin: 10px;
+    width: 90vw;
+    font-size: 2.5em;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    line-height: 2em;
+}
+
+h1 a {
+    text-decoration:none;
+    font-weight: 500;
+    padding: 10px;
+    border: 1px solid blue; 
+}
+
+h1 a:hover {
+    border: 5px solid blue;
+}
+
+h2 {
+    font-size: 16px;
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+
+h3 {
+    margin-bottom: 0px;
+    margin-top: 25px;
+    font-style: italic
+}
+
+h4 {
+    font-size: 20px;
+    margin-bottom: 0px;
+    margin-top: 25px;
+    color: black;
+    padding-top: 10px;
+    border-top: 2px solid blue;
+}
+
+ul {
+    margin-top: 0px}
+
+dt{
+   font-weight: 800;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+dd {
+    margin-bottom: 15px;
+    font-size: 12px;
+}
+
+marquee {
+    z-index: -999;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
+
+
+
+#nav-placeholder {
+    width: 20vw;
+    min-width: 125px;
+    max-width: 150px;
+    padding: 10px;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    display: block;
+    border-style: inset;
+    border-width: 3px;
+    padding-bottom: 15px;
+}
+
+#portfolio-placeholder {
+    width: 50vw;
+    min-width: 155px;
+    max-width: 220px;
+    padding: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 15px;
+    float: left;
+    display: block;
+    top: 220px;
+    border-style: inset;
+    border-width: 3px;
+}
+
+#portfolio-list {
+}
+
+#maze {
+    width: 100vw;
+    height: 99vh;
+    margin: 0px;
+    overflow: hidden;
+    position: absolute;
+    opacity: 5%;
+    left: 0;
+    top: 0;
+    pointer-events: none;
+}
+
+#spotify {
+    width: 50vw;
+    margin-left: 10px;
+    height: 50vh;
+    float: left;
+    margin-top: 25px;
+    left: 0;
+    bottom: 0;
+    z-index: -10000;
+    border: 2px solid blue;
+    border-style: inset;
+}
+.content {
+    padding: 10px;
+    max-width: 1000px;;
+    float: left;
+    display: inline-block;
+    border-style: inset;
+    border-width: 3px;
+    background-color: #ececf2;
+    margin-bottom: 10px;
+}
+
+.content img, .content video{
+    width: 100%;
+}
+
+.websiteembed {
+    width: 100%;
+    height: 80vh;
+}
+
+#textbox {
+}
+
+#ytvideo {
+    width: 100%;
+    height: 40vw
+}
+
+#caption {
+    margin-top: 0px;
+    margin-bottom: 25px;
+    max-width: 1000px;
+}
+
+#medium {
+    margin-top: 0px;
+}
+
+
+/* For Mobile */
+@media screen and (max-width: 540px) {
+    #maze {
+    width: 99.5%;
+}
+
+#spotify {
+    width: 100vw;
+    float: left;
+    margin: 0;
+} {
+}
